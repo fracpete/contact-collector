@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# other
+*~
+*.swp
+settings_*.py
+*.sqlite3
+*.pyc
+.idea/
+migrations/
+
