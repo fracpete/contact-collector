@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 
 def index(request):
-    template = loader.get_template('export.html')
+    template = loader.get_template('export/index.html')
     context = {
         'title': 'Export'
     }
