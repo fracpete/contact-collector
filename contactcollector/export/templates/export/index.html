@@ -4,8 +4,23 @@
 
 <h3>Contact Collector</h3>
 
-    <div class="btn-group-vertical btn-group-vertical-separated" role="group" aria-label="...">
-      <p>Export...</p>
-    </div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Export</h3>
+  </div>
+  <div class="panel-body">
+    <form action="/export/download" method="POST">
+      {% csrf_token %}
+      <table class="table_params">
+        <tr>
+          <td>You can export all the collected contacts here as an MS Excel spreadsheet.</td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Export"/></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
 
 {% endblock %}
