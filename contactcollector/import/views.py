@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 
 def index(request):
-    template = loader.get_template('index.html')
+    template = loader.get_template('import.html')
     context = {
         'title': 'Import'
     }
