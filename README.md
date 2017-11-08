@@ -60,9 +60,8 @@ Optional:
 * start up local webserver
 
   ```
-  ./venv/bin/python contactcollector/manage.py  runserver
+  ./venv/bin/python contactcollector/manage.py runserver
   ```
 
-* open webbrowser at http://localhost:8000/admin/
-* log in
+* open webbrowser at http://localhost:8000/
 
