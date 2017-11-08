@@ -6,8 +6,9 @@ logger = logging.getLogger(__name__)
 
 
 def index(request):
-    template = loader.get_template('actions.html')
+    template = loader.get_template('index.html')
     context = {
-        'title': 'Home'
+        'title': 'Import'
     }
     return HttpResponse(template.render(context, request))
+
