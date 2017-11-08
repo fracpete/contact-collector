@@ -27,10 +27,12 @@ Simple Django framework for collecting contact data.
     virtualenv -p /usr/bin/python3.5 venv
     ```
 
-  * install Django
+  * install Django and required dependencies
 
     ```
     ./venv/bin/pip install Django
+    ./venv/bin/pip install django_excel
+    ./venv/bin/pip install pyexcel-xls
     ```
 
   * setup database
